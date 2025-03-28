@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804366542550",
+    "project_id": "viva-app-e55b8",
+    "storage_bucket": "viva-app-e55b8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804366542550:android:1a560cae29499560a4cb77",
+        "android_client_info": {
+          "package_name": "lk.javainstitute.app28"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMsEAe07DXLbWVt7kPMlygdb3qhDPGsN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

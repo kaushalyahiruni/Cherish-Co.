@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/order_id_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Order ID: 4567"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/timestamp_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2023-10-15 10:30"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/darker_gray"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/product_title_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Title 1"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/product_quantity_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity: 2"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/product_price_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: Rs. 500.00"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/product_title_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Title 2"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/product_quantity_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity: 1"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/product_price_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: Rs. 300.00"
+                android:textSize="14sp"
+                android:textColor="@android:color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Subtotal:"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/subtotal_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 1000.00"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Delivery Fee:"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/delivery_fee_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 250.00"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Grand Total:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/grand_total_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 1250.00"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Order Status TextView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Status:"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivered"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/p24"
+            android:contentDescription="Product Image" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

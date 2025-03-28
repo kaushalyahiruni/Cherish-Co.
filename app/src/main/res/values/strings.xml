@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cherish &amp; Co.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1">View Products</string>
+    <string name="text2">GiftStore</string>
+    <string name="text3">Main Menu</string>
+    <string name="title1">CHERISH &amp; CO.</string>
+    <string name="slogan">Where Every Gift Tells a Story.</string>
+    <string name="getStarted">Get Started</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="Cart">Cart</string>
+    <string name="profile">profile</string>
+    <string name="customizedgifts">Custom Gifts</string>
+    <string name="customize">Customize Gifts</string>
+    <string name="address">My Address</string>
+    <string name="newaddress">+ Add Address</string>
+    <string name="recipient">Recipient</string>
+    <string name="payhere">Pay Here</string>
+    <string name="best">New Arrivals</string>
+    <string name="checkout">Confirm Checkout</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="grandtotal">Grand Total</string>
+    <string name="deliveryfee">Delivery Fee</string>
+    <string name="quantity">Quantity</string>
+    <string name="status">Status</string>
+    <string name="logout">Logout</string>
+    <string name="aboutus">About Us</string>
+    <string name="location">Our Locations</string>
+    <string name="alreadysignup">Go to SignIn</string>
+    <string name="update">Save Updates</string>
+    <string name="save">Save Customization</string>
+</resources>

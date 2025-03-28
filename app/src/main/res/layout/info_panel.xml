@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_panel_red">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/logo2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFOGRAPHIC"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        android:textSize="12sp"
+        android:textColor="#757575"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:maxWidth="150dp"/>
+
+</LinearLayout>
